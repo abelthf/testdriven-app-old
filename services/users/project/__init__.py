@@ -1,9 +1,9 @@
 # services/users/project/__init__.py
 
 import os  # new
-#from flask import Flask, jsonify
+# from flask import Flask, jsonify
 from flask import Flask  # new
-#from flask_restful import Resource, Api
+# from flask_restful import Resource, Api
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -43,7 +43,7 @@ db = SQLAlchemy()  # new
 #        }
 
 
-#api.add_resource(UsersPing, '/users/ping')
+# api.add_resource(UsersPing, '/users/ping')
 
 # new
 def create_app(script_info=None):
